@@ -10,7 +10,7 @@ were kinda simple, so I did it myself with turtle. It's not the best program you
 import turtle as t
 
 t.getscreen()
-t.speed(11)
+t.speed(1)
 t.pensize(4)
 original = (0, 0)
 
