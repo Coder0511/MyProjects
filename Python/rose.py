@@ -2,13 +2,14 @@
 
 
 """ 
-Well so last year I tried to do something original for the woman I love on Valentine's day. We live too far from each other, 
+So last year I tried to do something original for the woman I love on Valentine's day. We live too far from each other, 
 so I couldn't gift her anything that wasn't digitally. I tried to send her a rose in python but the programs I found on the Internet 
-were kinda simple, so I did it myself with turtle. It's not the best program you can find but it did the thing.
+were kinda simple, so I did it myself with turtle. It's not the best program you can find but it did the trick.
 """
 
 import turtle as t
 
+#Setting up the screen and some coordinates as a reference to return every time the turtle draws something
 t.getscreen()
 t.speed(1)
 t.pensize(4)
@@ -297,6 +298,7 @@ t.begin_fill()
 t.fillcolor("DarkGreen")
 t.forward(30)
 
+#Adding some loops to make it easier to draw curve lines
 for i in range(0, 4):
     t.left(10)
     t.forward(20)
