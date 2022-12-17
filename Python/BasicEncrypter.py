@@ -1,7 +1,7 @@
 #BEGINNER LEVEL
 
 
-#Program prepared to encrypt or decrypt a given message (basic version).
+#I wrote a basic program to encrypt and decrypt a message without private or public keys.
 
 import os
 
